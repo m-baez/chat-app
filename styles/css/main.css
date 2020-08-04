@@ -1,0 +1,25 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: fontPage;
+}
+html {
+  font-size: 100%;
+}
+.wrapper__text {
+  padding: 1em 2.25em;
+  text-align: center;
+}
+.wrapper__text-h1 {
+  font-size: 2.375em;
+  color: #3e2753;
+  letter-spacing: 0.0357em;
+  margin-bottom: 0.571em;
+  font-weight: 700;
+}
+.wrapper__text-p {
+  font-size: 1em;
+  line-height: 1.75em;
+  letter-spacing: 0.0125em;
+  color: #a39daa;
+}
