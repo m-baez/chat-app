@@ -6,6 +6,60 @@
 html {
   font-size: 100%;
 }
+.marginBottom16 {
+  margin-top: 0.5em;
+  margin-bottom: 1em;
+}
+.marginTop11 {
+  margin-top: 0.6875em;
+}
+.marginTop8 {
+  margin-top: 0.5em;
+}
+.marginRight34 {
+  margin-right: 4.25em;
+}
+.marginRight49 {
+  margin-right: 6.125em;
+}
+.marginLeft8 {
+  margin-left: 1em;
+}
+.with80 {
+  width: 5em;
+  height: 1.4375em;
+}
+.with128 {
+  width: 8em;
+  height: 2.125em;
+}
+.height45 {
+  width: 8em;
+  height: 2.8125em;
+}
+.height32 {
+  width: 10em;
+  height: 2em;
+}
+.padding86 {
+  padding: 0.75em 1.5em 0.75em 1em;
+}
+.padding812 {
+  padding: 1em 1.5em 1em 1em;
+}
+.padding168 {
+  padding: 0.625em 1em 0.625em 0.5em;
+  display: flex;
+  align-items: center;
+}
+.alingRight {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.alingLeft {
+  margin-left: 0.53125em;
+}
 .wrapper__iphone {
   margin: 4em 4em 0 4em;
   height: 31.5625em;
@@ -63,6 +117,59 @@ html {
   font-size: 0.5em;
   font-weight: 400;
   color: #d99eff;
+}
+.wrapper__iphone-chatLeft {
+  border-radius: 0.625em 0.625em 0.625em 0.25em;
+  background: #eee5f4;
+  display: flex;
+  align-items: center;
+}
+.wrapper__iphone-chatLeft-gradient {
+  color: #fff;
+  background: linear-gradient(135deg, #e942ff 20%, #8838ff 100%);
+  border-radius: 0.625em 0.625em 0.625em 0.25em;
+}
+.wrapper__iphone-chatLeft-gradient p:nth-of-type(1) {
+  border: 1px solid #e472ff;
+  border-radius: 50%;
+  width: 0.6875em;
+  height: 0.6875em;
+}
+.wrapper__iphone-chatLeft-gradient p:nth-of-type(2) {
+  font-size: 0.5em;
+}
+.wrapper__iphone-chatLeft-gradient p:nth-of-type(3) {
+  font-size: 0.75em;
+  font-weight: 700;
+}
+.wrapper__iphone-chatLeft p {
+  font-size: 0.5em;
+  color: #9341c8;
+  line-height: 1.375em;
+}
+.wrapper__iphone-chatRight {
+  border-radius: 0.625em 0.625em 0.25em 0.625em;
+  background: #fff;
+  box-shadow: 0px 10px 5px -5px rgba(62,39,83,0.1);
+  margin-right: 0.53125em;
+}
+.wrapper__iphone-chatRight p {
+  font-size: 0.5em;
+  color: #6e5d7e;
+  line-height: 1.375em;
+  padding: 0.75em 1em;
+}
+.wrapper__iphone-images {
+  width: 8.5em;
+  margin-right: 0.53125em;
+  display: flex;
+  justify-content: space-between;
+}
+.wrapper__iphone-images img {
+  width: 2.5em;
+  height: 2.5em;
+  border-radius: 0.625em;
+  box-shadow: 0px 10px 5px -5px rgba(62,39,83,0.1);
 }
 .wrapper__text {
   padding: 1em 2.25em;

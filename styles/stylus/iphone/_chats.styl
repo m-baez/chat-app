@@ -1,0 +1,35 @@
+&-chatLeft
+  border-radius: 0.625em 0.625em 0.625em 0.25em // 10px 4px
+  background: bgChats
+  display: flex
+  align-items: center
+  &-gradient
+    color: white
+    background: gradientChat
+    border-radius: 0.625em 0.625em 0.625em 0.25em // 10px 4px
+  &-gradient p:nth-of-type(1)
+    border: 1px solid littleCircle
+    border-radius: 50%
+    width: 0.6875em // 11px
+    height: 0.6875em // 11px
+  &-gradient p:nth-of-type(2)
+    font-size: 0.5em // 8px == 1em
+  &-gradient p:nth-of-type(3)
+    font-size: 0.75em // 12px
+    font-weight: 700
+&-chatLeft p
+    font-size: 0.5em // 8px == 1em
+    color: chatsLeft
+    line-height: 1.375em // 11px
+&-chatRight
+  border-radius: 0.625em 0.625em 0.25em 0.625em // 10px 4px
+  background: white
+  box-shadow: 0px 10px 5px -5px shadow10
+  margin-right: 0.53125em // 8.5px
+&-chatRight p
+  font-size: 0.5em // 8px == 1em
+  color: chatsRight
+  line-height: 1.375em // 11px
+  padding: 0.75em 1em // 6px 8px
+
+
